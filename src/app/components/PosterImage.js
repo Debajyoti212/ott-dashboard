@@ -1,3 +1,4 @@
+// Fetches real movie/show posters from TMDB API with graceful fallback
 'use client';
 
 import { useState, useEffect } from 'react';

@@ -1,3 +1,4 @@
+// Enhanced watch time chart with platform-specific colors and animated area fill
 'use client';
 
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
