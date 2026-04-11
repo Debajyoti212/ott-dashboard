@@ -1,3 +1,4 @@
+// Platform page: displays content grid with posters, hero banner, and analytics links
 import { redirect, notFound } from 'next/navigation';
 import { getSession } from '@/app/lib/session';
 import getDb from '@/app/lib/db';

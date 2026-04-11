@@ -1,3 +1,4 @@
+// Platform selector: shows Netflix, Prime, and Hotstar with live content counts
 import { redirect } from 'next/navigation';
 import { getSession } from '@/app/lib/session';
 import { logout } from '@/app/actions/auth';
