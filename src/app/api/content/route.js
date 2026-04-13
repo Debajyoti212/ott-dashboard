@@ -1,3 +1,4 @@
+// Content API: serves platform content and per-title analytics data from SQLite
 import Database from 'better-sqlite3';
 import { NextResponse } from 'next/server';
 import path from 'path';

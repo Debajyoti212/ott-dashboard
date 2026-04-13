@@ -1,3 +1,4 @@
+// Poster API: fetches real movie/show poster images from TMDB API
 import { NextResponse } from 'next/server';
 
 export async function GET(request) {
