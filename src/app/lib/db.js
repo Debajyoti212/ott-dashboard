@@ -1,3 +1,4 @@
+// Database connection: opens SQLite db with WAL mode for optimal read performance
 import Database from 'better-sqlite3';
 import path from 'path';
 

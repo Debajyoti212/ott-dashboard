@@ -1,3 +1,4 @@
+// Analytics page: displays per-title watch time, rankings, ratings and monthly graph
 import { redirect, notFound } from 'next/navigation';
 import { getSession } from '@/app/lib/session';
 import getDb from '@/app/lib/db';
