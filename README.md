@@ -87,8 +87,9 @@ Raw data was processed in a Kaggle notebook using Python and pandas:
 - Exported as SQLite database (`data.db`)
 
 ## Screenshots
-![alt text](login.png)
-![alt text](select-platform.png)
+<img width="1915" height="975" alt="login png" src="https://github.com/user-attachments/assets/1adfadd9-cc67-4310-9dd4-9c22c24847fd" />
+
+
 ![alt text](netflix.png)
 ![alt text](select-platform-1.png)
 ![alt text](analytics2,png.png)
