@@ -173,7 +173,7 @@ export default async function AnalyticsPage({ params }) {
         <div className="chart-container">
           <div className="chart-header">
             <h3>Monthly Watch Time (12-Month Breakdown)</h3>
-            <span>From release date to present</span>
+            <span>From release date · {watchHistory.length} months of data</span>
           </div>
           <WatchTimeChart data={watchHistory} platform={platform} />
         </div>
