@@ -30,6 +30,12 @@ function CustomTooltip({ active, payload, label }) {
         <p style={{ color: '#fff', fontWeight: 600, marginBottom: '4px', fontSize: '13px' }}>{label}</p>
         <p style={{ color: '#b3b3b3', fontSize: '12px' }}>
           {formatMinutes(payload[0].value)} mins watched
+          <p style={{ color: '#b3b3b3', fontSize: '12px' }}>
+            {formatMinutes(payload[0].value)} mins watched
+          </p>
+          <p style={{ color: '#b3b3b3', fontSize: '12px' }}>
+            Views: {payload[1]?.value?.toLocaleString() || 'N/A'}
+          </p>
         </p>
       </div>
     );
