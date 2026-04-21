@@ -87,11 +87,17 @@ Raw data was processed in a Kaggle notebook using Python and pandas:
 - Exported as SQLite database (`data.db`)
 
 ## Screenshots
-![alt text](login.png)
-![alt text](select-platform.png)
-![alt text](netflix.png)
-![alt text](select-platform-1.png)
-![alt text](analytics2,png.png)
+login page 
+<img width="1915" height="975" alt="login png" src="https://github.com/user-attachments/assets/1adfadd9-cc67-4310-9dd4-9c22c24847fd" />
+selection page 
+<img width="1915" height="979" alt="select-platform png" src="https://github.com/user-attachments/assets/a3afb6a3-b99d-4813-bb57-3847992421e3" />
+interface
+<img width="772" height="922" alt="Screenshot 2026-04-08 211049" src="https://github.com/user-attachments/assets/7e1ba76c-bc18-4855-9021-84a6e64dfcc4" />
+analytics 1
+<img width="1901" height="978" alt="analytics1 png" src="https://github.com/user-attachments/assets/8d53c918-52d4-4841-9960-eb541c5d3f85" />
+analytics2
+<img width="1901" height="977" alt="analytics2 png" src="https://github.com/user-attachments/assets/e9a319a1-ae74-4a94-8b2a-5e16cb59df79" />
+
 
 ## License
 
