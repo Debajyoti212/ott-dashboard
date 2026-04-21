@@ -95,7 +95,7 @@ export default async function PlatformPage({ params }) {
       {/* Content Rows by Type */}
       {Object.entries(groupMap).map(([group, items]) => (
         <div key={group} className="content-section">
-          <h2 className="section-title">{group}s</h2>
+          <h2 className="section-title">{group === 'Movie' ? '🎬 Movies' : '📺 TV Shows'}</h2>
           <div className="content-row">
             {items.map(item => (
               <Link
