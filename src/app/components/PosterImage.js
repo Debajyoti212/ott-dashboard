@@ -33,9 +33,10 @@ export default function PosterImage({ title, type, platform }) {
                 alignItems: 'center',
                 justifyContent: 'center',
                 color: '#666',
-                fontSize: '12px'
+                fontSize: '12px',
+                borderRadius: '4px',
             }}>
-                Loading...
+                ⏳
             </div>
         );
     }
