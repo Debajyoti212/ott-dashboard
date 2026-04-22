@@ -20,12 +20,16 @@ export async function GET(request) {
     }
 
     // Platform content listing
+    // Platform content listing
     if (platform) {
-        const content = db.prepare(
-            'SELECT * FROM content WHERE platform = ? ORDER BY platform_rank ASC'
-        ).all(platform);
+        const search = searchParams.get('search') || '';
+        const content = search
+            ? db.prepare(
+                'SELECT * FROM content WHERE platform = ? AND title LIKE ? ORDER BY platform_rank ASC'
+            ).all(platform, `%${search}%`)
+            : db.prepare(
+                'SELECT * FROM content WHERE platform = ? ORDER BY platform_rank ASC'
+            ).all(platform);
         return NextResponse.json({ content });
     }
-
-    return NextResponse.json({ error: 'Missing platform or content_id param' }, { status: 400 });
 }
