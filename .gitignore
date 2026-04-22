@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+data.db
+data.db-shm
+data.db-wal
+analytics2,png.png
+login.png
+netflix.png
+select-platform-1.png
+select-platform.png
