@@ -99,7 +99,17 @@ analytics2
 <img width="1901" height="977" alt="analytics2 png" src="https://github.com/user-attachments/assets/e9a319a1-ae74-4a94-8b2a-5e16cb59df79" />
 
 
+## Roadmap
+- [x] User authentication (register/login)
+- [x] Platform selection page
+- [x] Real poster images via TMDB API
+- [x] Monthly watch time graph
+- [x] Content ranking system
+- [ ] Search functionality
+- [ ] Genre filtering
+- [ ] Deploy to Vercel
+- [ ] User watch history tracking
+
 ## License
 
 MIT
-
