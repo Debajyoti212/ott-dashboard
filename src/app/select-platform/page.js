@@ -38,21 +38,21 @@ export default async function SelectPlatform() {
           <div className="platform-icon">N</div>
           <h2 className="platform-name">Netflix</h2>
           <p className="platform-desc">Stream original movies, TV shows, and documentaries.</p>
-          <span className="platform-count">{netflixCount} Titles</span>
+          <span className="platform-count">🎬 {netflixCount} Titles</span>
         </Link>
 
         <Link href="/platform/prime" className="platform-card prime">
           <div className="platform-icon">P</div>
           <h2 className="platform-name">Amazon Prime</h2>
           <p className="platform-desc">Watch exclusive series, blockbuster movies, and live sports.</p>
-          <span className="platform-count">{primeCount} Titles</span>
+          <span className="platform-count">🎬 {primeCount} Titles</span>
         </Link>
 
         <Link href="/platform/hotstar" className="platform-card hotstar">
           <div className="platform-icon">H</div>
           <h2 className="platform-name">Jio Hotstar</h2>
           <p className="platform-desc">Bollywood hits, cricket, regional content, and Disney+ originals.</p>
-          <span className="platform-count">{hotstarCount} Titles</span>
+          <span className="platform-count">🎬 {hotstarCount} Titles</span>
         </Link>
       </div>
     </div>
