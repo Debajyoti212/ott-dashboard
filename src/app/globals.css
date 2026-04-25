@@ -1271,3 +1271,14 @@ button {
     padding: 16px 24px;
   }
 }
+
+/* Smooth scroll behavior for all pages */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Better focus styles for accessibility */
+:focus-visible {
+  outline: 2px solid #00A8E1;
+  outline-offset: 2px;
+}
