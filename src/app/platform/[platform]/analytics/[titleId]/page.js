@@ -139,7 +139,7 @@ export default async function AnalyticsPage({ params }) {
           <div className="stat-icon">⏱</div>
           <div className="stat-label">Total Watch Time</div>
           <div className="stat-value">{formatMinutes(totalMinutes)}</div>
-          <div className="stat-sub">minutes across {watchHistory.length} months</div>
+          <div className="stat-sub">mins · {watchHistory.length} months tracked</div>
         </div>
 
         <div className="stat-card">
