@@ -57,7 +57,7 @@ export default function WatchTimeChart({ data, platform }) {
         <defs>
           <linearGradient id={`gradient-${platform}`} x1="0" y1="0" x2="0" y2="1">
             <stop offset="5%" stopColor={colors.stroke} stopOpacity={0.4} />
-            <stop offset="95%" stopColor={colors.stroke} stopOpacity={0.05} />
+            <stop offset="95%" stopColor={colors.stroke} stopOpacity={0.02} />
           </linearGradient>
         </defs>
         <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
