@@ -1,4 +1,5 @@
 {
+  "description": "Multi-platform OTT analytics dashboard built with Next.js and SQLite",
   "name": "dashboard",
   "version": "0.1.0",
   "private": true,
